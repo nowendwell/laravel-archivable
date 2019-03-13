@@ -1,0 +1,39 @@
+{
+    "name": "nowendwell/laravel-archivable",
+    "description": "A trait to make an Eloquent model archivable",
+    "keywords": [
+        "nowendwell",
+        "laravel",
+        "archive",
+        "archivable",
+        "trait",
+        "eloquent",
+        "laravel-archivable"
+    ],
+    "homepage": "https://github.com/nowendwell/laravel-archivable",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Ben Miller",
+            "email": "nowendwell@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "illuminate/support": "5.8.*"
+    },
+    "require-dev": {
+        "orchestra/testbench": "3.8.*",
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nowendwell\\LaravelArchivable\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
